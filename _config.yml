@@ -1,7 +1,7 @@
 # Site
 title:              Ethereum Ropsten Network Faucet 
-bio:                'Quickly get your Ropsten Network ETH!'
-description:        "Allows you to quickly exchange your MainNet ETH for Ropsten network ETH in 1:100 ratio!"
+bio:                'Exchange your MainNet ETH for Ropsten Network ETH in 1:1000 ratio.'
+description:        "Allows you to quickly exchange your MainNet ETH for Ropsten network ETH in 1:100 ratio."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
