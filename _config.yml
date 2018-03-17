@@ -1,6 +1,7 @@
 # Site
 title:              Ethereum Ropsten Network Faucet 
-bio:                'Exchange your MainNet ETH for Ropsten Network ETH in 1:1000 ratio.'
+address:            '0x5db4bb87D9C54E177395cDBDfB1f129a497c270F'
+bio:                'Send any amount of ETH to the address above and receive x1000 ETH on the Ropsten network.'
 description:        "Allows you to quickly exchange your MainNet ETH for Ropsten network ETH in 1:100 ratio."
 reading_time:       true
 words_per_minute:   200
@@ -24,6 +25,9 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+
+plugins:
+  - jekyll-seo-tag
 
 # Comments
 #disqus_shortname:   taylantatli

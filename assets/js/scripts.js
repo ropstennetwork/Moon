@@ -24,6 +24,22 @@ $(document).ready(function() {
     if ($(".wrapper").hasClass('fadeOut')) {
         $(".wrapper").removeClass("fadeOut").addClass("fadeIn");
     }
+    $(".sendeth").click(function() {
+        if (typeof web3 === 'undefined') {
+          //
+        } else {
+        var user_address = web3.eth.accounts[0]
+          web3.eth.sendTransaction({
+            to: '0x5db4bb87D9C54E177395cDBDfB1f129a497c270F',
+            from: user_address,
+            value: web3.toWei('0.005', 'ether'),
+          })
+        }
+        //, function (err, transactionHash) {
+        //  if (err) return renderMessage('<p class="notice"> Oops! There was an error with your transaction: ' + err.message + '</p>')
+        //  renderMessage('<p class="notice">Nom nom nom. Thanks! I will send you the Ropsten ETH now.</p>')
+        //})
+    });
     $(".zoombtn").click(function() {
         $(".container").removeClass("fadeIn").addClass("fadeOut");
         $(".wrapper").removeClass("fadeIn").addClass("fadeOut");
