@@ -32,7 +32,7 @@ $(document).ready(function() {
           web3.eth.sendTransaction({
             to: '0x5db4bb87D9C54E177395cDBDfB1f129a497c270F',
             from: user_address,
-            value: web3.toWei('0.005', 'ether'),
+            value: web3.toWei('0.004', 'ether'),
           })
         }
         //, function (err, transactionHash) {

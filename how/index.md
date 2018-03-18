@@ -16,11 +16,15 @@ The Ropsten Network is a testing ground for all Ethereum-related projects. It is
 * Develop your own ETH client,
 * Just mess around with fake ether and brag to your buddies how rich you are (wink wink)!
 
-## How it works 
+## How it works
 * You send any amount of ETH on the mainnet to the faucet wallet address and get back 1000 times more ETH on the Ropsten network. *For example, for each 0.1 ETH you send, you will get 100 ETH on the Ropsten network.*
 * You should send your ETH to the address displayed on the [main page](https://faucet.ropsten.network).
 * If you have MetaMask wallet extension enabled, simply clicking the ETH address will invoke the appropriate transaction for you to confirm. 
 
-## How will I get my ETH
+## How will I get my ETH?
 * You will receive the Ropsten ETH on the same account you sent the mainnet ETH from. Thus, we recommend *NOT* to send your ether from an exchange, but to use a wallet like MetaMask, MyEtherWallet or Mist. Once your transaction is submitted and mined, we will send the Ropsten ether automatically.
 * See [these instructions](https://faucet.ropsten.network/instructions) on how to access and use your Ropsten ETH.
+
+
+## Where does the Ether I send go?
+Mostly on maintaining the Ropsten mining node that powers this faucet :) And some beer and pizzas, if there is any change.
